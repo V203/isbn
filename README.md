@@ -1,8 +1,17 @@
 # International Standard Book Numbers
 
+### Installation 
+---
+* Make sure you have Node.js and npm installed on your system. You can download and install them from the official Node.js website https://nodejs.org
 
+* Make sure you have forked the repository by clicing the fork button. in the following github repo https://github.com/V203/isbn.
 
+* Then open terminal linux (ctl + alt + T) git clone ` https://github.com/V203/isbn`.
 
+* cd isbn
+  * npm install
+  * tsc -w | compile and build the project on your machine.
+  * ts-node to run the project.
 
 ### Space and time complexity
 -----

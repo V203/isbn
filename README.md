@@ -1,6 +1,7 @@
 # International Standard Book Numbers
 
 ## Installation
+-----
 
 To install and run this TypeScript project on Linux, Windows, or Mac, follow these steps:
 
@@ -14,21 +15,31 @@ To install and run this TypeScript project on Linux, Windows, or Mac, follow the
    ```bash
    git clone https://github.com/YourGitHubUsername/isbn
    ```
+
+Navigate into the project directory:   
 ```bash
    cd isbn
-```
+``` 
+
+Install project dependencies using npm:
 ```bash
 npm install
 ```
+Build and compile the project using TypeScript:
+```bash
+tsc -w
+```
+Run the project using ts-node:
 ```bash
 ts-node index.ts
 ```
+## Running the Test
+Simply after you have followed all the instructions above just run the command below to see the test results.
+-----
+```bash npm test ```
 
-```bash
-npx tsc -w
-```
 
-### Space and time complexity
+## Space and time complexity
 -----
 isbn13 function:
 

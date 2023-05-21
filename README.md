@@ -1,17 +1,32 @@
 # International Standard Book Numbers
 
-### Installation 
----
-* Make sure you have Node.js and npm installed on your system. You can download and install them from the official Node.js website https://nodejs.org
+## Installation
 
-* Make sure you have forked the repository by clicing the fork button. in the following github repo https://github.com/V203/isbn.
+To install and run this TypeScript project on Linux, Windows, or Mac, follow these steps:
 
-* Then open terminal linux (ctl + alt + T) git clone ` https://github.com/V203/isbn`.
+1. Make sure you have Node.js and npm installed on your system. You can download and install them from the official Node.js website: [https://nodejs.org](https://nodejs.org)
 
-* cd isbn
-  * npm install
-  * tsc -w | compile and build the project on your machine.
-  * ts-node to run the project.
+2. Fork the repository by clicking the "Fork" button on the GitHub repository page: [https://github.com/V203/isbn](https://github.com/V203/isbn)
+
+3. Open the terminal or command prompt on your system.
+
+4. Clone the forked repository to your local machine by running the following command:
+   ```bash
+   git clone https://github.com/YourGitHubUsername/isbn
+   ```
+```bash
+   cd isbn
+```
+```bash
+npm install
+```
+```bash
+ts-node index.ts
+```
+
+```bash
+npx tsc -w
+```
 
 ### Space and time complexity
 -----

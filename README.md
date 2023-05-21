@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/V203/isbn/actions/workflows/node.js.yml/badge.svg)](https://github.com/V203/isbn/actions/workflows/node.js.yml)
+
 # International Standard Book Numbers
 
 ## Installation
